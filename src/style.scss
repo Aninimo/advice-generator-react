@@ -1,0 +1,32 @@
+//Variables
+$pursian-blue: #003049;
+$space-cadet: #22223b;
+$caribe-green: #06d6a0;
+
+body{
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: $pursian-blue;
+}
+
+.app{
+   .card{
+      width: 350px;
+      height: auto;
+      padding: 20px;
+      border: .5rem;
+      text-align: center;
+      color: #fff;
+      background: $space-cadet;
+   }
+   .button{
+      padding: 10px 50px;
+      color: #fff;
+      background: $caribe-green;
+      border: none;
+      font-weight: bold;
+    }
+}
